@@ -5,12 +5,10 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-       <div class="navbar-brand">
-  {{#if @site.logo}}
-      <a href="{{@site.url}}" class="header-url"><img src="{{@site.logo}}" alt="blog logo" class="head-logo hvr-rotate" /></a>
-  {{else}}
-  <a href="{{@site.url}}" class="navbar-brand header-url">{{@site.title}}</a>
-  {{/if}}
+    <div class="navbar-brand">
+      <a href="{{@site.url}}" class="header-url">{{#if @site.logo}}<img src="{{@site.logo}}" alt="blog logo" class="head-logo hvr-rotate" />{{/if}}
+      {{@site.title}}
+      </a>
   </div>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav">
