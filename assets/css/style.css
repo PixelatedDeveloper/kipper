@@ -971,7 +971,7 @@ p > img,
 	  text-decoration: none;
   }
   
-  .theme-name-footer p a:hover {
+  .theme-name-footer a:hover {
 	  color: #000 !important;
 	  text-decoration: none;
   }
