@@ -28,16 +28,13 @@
 {{/is}}
 
 {{#is "tag"}}
-      <div class="tag_head_wrap">
-        <div class="tag_heading text-center">
+        <div class="top_heading text-center">
         {{#tag}}
-          <div class="author_wrap">
+          <div class="top_section_wrap">
           <img src="{{#if featured_image}}{{img_url featured_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
-          <p class="posttitle posttitle-author">{{name}}</p>
+          <p class="top-section-title">{{name}}</p>
           </div>
         {{/tag}}
-        </div>
-
         </div>
 {{/is}}
 
