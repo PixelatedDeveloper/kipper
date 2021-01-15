@@ -68,7 +68,8 @@
 	  color: var(--accentcolor) !important;
   }
 
-  p {
+  p,
+  li {
 	font-family: "Imprima", sans-serif !important;
   }
   
