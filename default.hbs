@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{{@site.lang}}">
+  <head>
+    <title>{{meta_title}}</title>
+    {{! Document Settings }}
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    {{! Responsive Meta Tags }}
+    <!-- own stylesheet for general stuff -->
+    <link rel="stylesheet" href="{{asset "css/style.css"}}">
+    <!-- other used items -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Imprima&family=Quicksand:wght@400;600&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Imprima&family=Quicksand:wght@400;600&display=swap" />
+        {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<main class="{{body_class}}">
+
+<div class="container-fluid container-wrap">
+<!-- main navigation -->
+{{navigation}}
+
+{{{body}}}
+
+{{> 'ui/footer'}}
+
+</div><!-- container fluid END! -->
+</main>
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
+<script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+        var container = image.closest('.kg-gallery-image');
+        var width = image.attributes.width.value;
+        var height = image.attributes.height.value;
+        var ratio = width / height;
+        container.style.flex = ratio + ' 1 0%';
+    })
+</script>
+   {{!-- Scripts for Members subscription --}}
+    <script>
+        // Parse the URL parameter
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        // Give the parameter a variable name
+        var action = getParameterByName('action');
+        var stripe = getParameterByName('stripe');
+        var success = getParameterByName('success');
+        $(document).ready(function () {
+            if (action == 'subscribe') {
+                $('body').addClass("subscribe-success");
+            }
+            if (action == 'signup') {
+                window.location = '{{@site.url}}/signup/?action=checkout';
+            }
+            if (action == 'checkout') {
+                $('body').addClass("signup-success");
+            }
+            // Success === null is here for backwards compatibility, can be removed shortly
+            if (action == 'signin' && (success === null || success === 'true')) {
+                $('body').addClass("signin-success");
+            }
+            if (action == 'signin' && success === 'false') {
+                $('body').addClass("signin-failure");
+            }
+            if (stripe == 'success') {
+                $('body').addClass("checkout-success");
+            }
+            if (stripe == 'billing-update-success') {
+                $('body').addClass("billing-success");
+            }
+            if (stripe == 'billing-update-cancel') {
+                $('body').addClass("billing-cancel");
+            }
+            $('.notification-close').click(function () {
+                $(this).parent().addClass('closed');
+                var uri = window.location.toString();
+                if (uri.indexOf("?") > 0) {
+                    var clean_uri = uri.substring(0, uri.indexOf("?"));
+                    window.history.replaceState({}, document.title, clean_uri);
+                }
+            });
+            // Reset form on opening subscrion overlay
+            $('.subscribe-button').click(function() {
+                $('.subscribe-overlay form').removeClass();
+                $('.subscribe-email').val('');
+            });
+            // Account navigation menu
+            $('.account-menu-avatar').click(function(event) {
+                $(this).toggleClass('active');
+                event.stopPropagation();
+            });
+            $('.account-menu-dropdown').click(function(event) {
+                event.stopPropagation();
+            });
+            $('body').click(function () {
+                $('.account-menu-avatar').removeClass('active');
+            });
+        });
+    </script>
+{{ghost_foot}}
+</html>
