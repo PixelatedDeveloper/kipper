@@ -1119,7 +1119,16 @@ p > img,
 	}
   }
   
+    
+  /* ######################
   
+  GHOST SPECIFIC
+  
+  ###################*/
+  .gh-portal-btn {
+	background: var(--accentcolor) !important;
+  }
+
   
   /* ###############################################
   
@@ -1204,7 +1213,7 @@ p > img,
 	width: 100% !important;
 	color: white;
   }
-  
+
   /* ######################
   
   animations
