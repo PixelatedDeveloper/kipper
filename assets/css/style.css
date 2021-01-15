@@ -1050,10 +1050,6 @@ p > img,
 	--bs-gutter-x: 0 !important;
   }
   
-  .premium {
-	left: -10px !important;
-  }
-  
   hr {
 	padding-top: 15px !important;
 	padding-bottom: 15px !important;
@@ -1084,10 +1080,6 @@ p > img,
 	  padding: 10px;
 	}
   
-	.premium {
-	  left: -10px !important;
-	}
-  
 	.source-item a {
 	  margin-top: 10px;
 	}
@@ -1112,9 +1104,6 @@ p > img,
 	  padding: 10px;
 	}
   
-	.premium {
-	  left: -20px !important;
-	}
   }
   
     
@@ -1135,7 +1124,7 @@ p > img,
   ############################################*/
   
   .premium {
-	background: rgba(5, 108, 23, 0.85);
+	background: var(--accentsubtext);
 	padding: 5px;
 	border-radius: 5px;
 	font-size: 15px;
