@@ -7,6 +7,7 @@ collections:
   /:
     permalink: /{slug}/
     template: index
+    filter: featured:false
 
 taxonomies:
   tag: /tag/{slug}/
