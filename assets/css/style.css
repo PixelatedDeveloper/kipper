@@ -477,6 +477,10 @@
 	text-transform: uppercase;
   }
 
+  .post-wrap {
+    margin-bottom: 40px;
+  }
+
   .reverse-post {
 	flex-direction: row-reverse !important;
   }
