@@ -38,6 +38,11 @@
 	General settings
   
   *****************************************/
+  body {
+	font-family: "Imprima", sans-serif !important;
+  }
+
+
   .vertical-align-item {
 	  display: flex;
 	  align-items: center;
@@ -395,6 +400,17 @@
 	-moz-box-shadow: 10px 10px 19px -20px rgba(0, 0, 0, 0.41);
 	box-shadow: 10px 10px 19px -20px rgba(0, 0, 0, 0.41);
   }
+
+  .socials-top a {
+	  padding: 5px;
+	  border-radius: 5px;
+	  text-decoration: none !important;
+	  color: white !important;
+  }
+
+  .socials-top a i {
+	  margin-right: 5px;
+  }
   
   .templates-section {
 	flex-direction: row-reverse;
@@ -633,12 +649,16 @@
   }
 
   .tagslist a {
-    color: var(--grey-accent) !important;
-    text-transform: uppercase;
+	color: white !important;
+	text-transform: uppercase;
+	background: var(--accentcolor);
+	padding: 10px;
+	border-radius: 5px;
   }
 
   .tagslist a:hover {
-	  color: var(--accentcolor) !important;
+	  color: white;
+	  text-decoration: underline;
   }
 
   .related .collection {
@@ -962,16 +982,28 @@ p > img,
     margin-right: 8px;
   }
 
-  .footer-socials a .fa-twitter:hover {
+  .footer-socials a .fa-twitter:hover
+  {
 	color: #1dcaff !important;
+  }
+
+  .socials-top-twt {
+	background: #1dcaff !important;
+	color: white !important;
   }
 
   .footer-socials a .fa-rss:hover {
 	color: #ee802f !important;
   }
   
-  .footer-socials a .fa-facebook:hover {
+  .footer-socials a .fa-facebook:hover
+  {
 	color: #3B5998 !important;
+  }
+
+  .socials-top-fb {
+	background: #3B5998 !important;
+	color: white !important;
   }
 
   .footer-socials a svg {
