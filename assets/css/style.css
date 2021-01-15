@@ -643,6 +643,10 @@
     padding: 10px;
   }
 
+  .author-bio-text .socials-top {
+    margin-top: 10px;
+  }
+
   .tagslist {
     margin-top: 30px;
     margin-bottom: 30px;
