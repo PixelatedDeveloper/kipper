@@ -637,6 +637,10 @@
     text-transform: uppercase;
   }
 
+  .tagslist a:hover {
+	  color: var(--accentcolor);
+  }
+
   .related .collection {
     padding-left: 0 !important;
   }
