@@ -1,7 +1,7 @@
 <div class="container-fluid container-wrap row">
 
 {{#foreach posts}}
-
+    <div class="row post-wrap {{#has index="nth:2"}}reverse-post{{/has}}">
             <div
               class="col-12 col-md-4 col-lg-4 tab-image"
             >
@@ -39,7 +39,7 @@
                   </div>
               </div>
             </div> 
-
+    </div>
 {{/foreach}}
 
 </div>
