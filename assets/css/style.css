@@ -293,12 +293,11 @@
   }
   
   .nav-item.active > .nav-link {
-	color: var(--font-color-primary-light) !important;
-	border-bottom: 3px solid var(--accentcolor);
+	color: var(--accentcolor) !important;
   }
   
   .nav-link:hover {
-	border-bottom: 3px solid var(--accentcolor);
+	color: var(--accentcolor);
   }
   
   .navbar-nav {
@@ -463,6 +462,10 @@
 
   .post-subitems i {
 	  padding: 8px;
+  }
+
+  article {
+    padding: 20px;
   }
   
   .site-title {
