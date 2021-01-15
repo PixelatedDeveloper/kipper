@@ -1113,7 +1113,7 @@ p > img,
   
   ###################*/
   .gh-portal-btn {
-	background: var(--accentcolor) !important;
+	background-color: var(--accentcolor) !important;
   }
 
   
