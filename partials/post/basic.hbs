@@ -1,5 +1,5 @@
 <div class="container-fluid container-wrap row">
-
+{{#get "posts" filter="featured:false"}}
 {{#foreach posts}}
     <div class="row post-wrap {{#has index="nth:2"}}reverse-post{{/has}}">
             <div
@@ -41,5 +41,5 @@
             </div> 
     </div>
 {{/foreach}}
-
+{{/get}}
 </div>
