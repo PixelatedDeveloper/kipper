@@ -20,17 +20,16 @@
         </div>
       <hr class="fancy-hr" />
       <div class="post-content">
-        {{#if @member.paid}}
-          <p>Thanks for becoming a paying member 🎉</p>
-        {{else if @member}}
-          <p>Thanks for being a member 🙌</p>
-        {{else}}
-          <p>You should totally sign up... 🖋</p>
-        {{/if}}
-
           {{#if access}}
             {{content}}
 
+            {{#if @member.paid}}
+              <p>Thanks for becoming a paying member 🎉</p>
+            {{else if @member}}
+              <p>Thanks for being a member 🙌</p>
+            {{else}}
+              <p>You should totally sign up... 🖋</p>
+            {{/if}}
             <div class="cat-links">
                 {{#if tags}}
                   <div class="tagslist">
