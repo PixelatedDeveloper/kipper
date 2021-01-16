@@ -29,7 +29,7 @@
                     class="hvr-grow button-url"
                     ><i class="fas fa-play"></i>{{t "Read More"}}</a
                   >
-                  <div>
+                </div>
                 {{else}}
                    <div class="card-actions-top source-item w-100">
                   <a
@@ -38,7 +38,7 @@
                     class="hvr-grow button-url"
                     ><i class="fas fa-play"></i>{{t "Subscribe"}}</a
                   >
-                  <div>
+                  </div>
                 {{/if}}
                     {{#foreach authors}}
                         <a href="{{url}}" title="{{name}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="homepage-avatar" alt="{{t "Written by"}} {{name}}" title="{{t "Written by"}} {{name}}"></a> 
@@ -46,9 +46,7 @@
                     <small class="text-muted badge">
                         <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
                   </small>
-                  </div>
-              </div>
-            </div> 
+            </div>
     </div>
 {{/foreach}}
 </div>
