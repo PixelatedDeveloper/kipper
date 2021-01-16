@@ -1129,7 +1129,8 @@ p > img,
     font-size: 14px;
     color: white;
     position: relative;
-    bottom: 0px;
+    bottom: 3px;
+    margin-right: 5px;
   }
   
   /* ###############################################
