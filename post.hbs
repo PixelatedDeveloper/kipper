@@ -20,8 +20,15 @@
         </div>
       <hr class="fancy-hr" />
       <div class="post-content">
+        {{#if @member.paid}}
+          <p>Thanks for becoming a paying member 🎉</p>
+        {{else if @member}}
+          <p>Thanks for being a member 🙌</p>
+        {{else}}
+          <p>You should totally sign up... 🖋</p>
+        {{/if}}
+
           {{#if access}}
-            <p>Thanks for being a member...</p>
             {{content}}
 
             <div class="cat-links">
@@ -35,9 +42,6 @@
             </div><!-- end cat links -->
             <hr class="fancy-hr" />
               {{> 'post/author-section'}}
-
-          {{else}}
-            <p>You need to become a member in order to read this post... </p>
           {{/if}}
       </div>
       </article>
