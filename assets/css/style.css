@@ -585,10 +585,14 @@
     text-transform: uppercase;
     font-weight: 600;
   }
+
+  .source-item .button-url .fa-play {
+    margin-right: 5px;
+  }
   
   .source-item a:hover {
-	text-decoration: none;
-	opacity: 0.95;
+    text-decoration: none;
+    opacity: 0.95;
   }
   
   .row-item-image {
