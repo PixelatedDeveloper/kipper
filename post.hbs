@@ -2,7 +2,7 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
   <div class="row h-100 page-row">
   {{#post}}
-      <div class="col col-xs-12 col-md-12 col-lg-12 main-content">
+      <div class="col col-xs-12 col-md-12 col-lg-12 main-content post-access-{{visibility}}">
       <article>
          <img
             src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}"
