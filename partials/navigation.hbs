@@ -13,13 +13,13 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav">
 
-                <!-- Loop through the navigation items -->
+{{#if @site.secondary_navigation}}
+        <!-- Loop through the navigation items -->
         {{#foreach navigation}}
         <li class="nav-item{{#if current}} active{{/if}}">
             <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
         </li>
         {{/foreach}}
-        {{#if @site.secondary_navigation}}
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -32,16 +32,26 @@
               {{else}}
               <a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/signin">{{t "Sign-in"}}</a>
               {{/if}}
+              <div class="dropdown-divider"></div>
             {{/if}}
-            <div class="dropdown-divider"></div>
-            {{#foreach navigation}}
-              <a class="nav-link dropdown-item" href="{{url}}">{{label}}</a>
+            {{#foreach @site.secondary_navigation }}
+              <a class="nav-link dropdown-item" href="{{url absolute="true"}}">{{label}}</a>
             {{/foreach}}
           </div>
         </li>
-        {{/if}}
 
-        
+{{else}}
+        <!-- Loop through the navigation items -->
+        {{#foreach navigation}}
+        <li class="nav-item{{#if current}} active{{/if}}">
+            <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
+        </li>
+        {{/foreach}}
+
+{{/if}}
+
+
+ 
         <!-- End the loop -->
     </ul>
   </div>
