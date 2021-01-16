@@ -19,15 +19,26 @@
             <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
         </li>
         {{/foreach}}
-        {{#if @labs.members}}
-        <li class="nav-item">
-          {{#if @member}}
-          <a class="nav-link" href="javascript:" data-members-signout>{{t "Sign-out"}}</a>
-          {{else}}
-          <a class="nav-link" href="{{@site.url}}/#/portal/signin">{{t "Sign-in"}}</a>
-          {{/if}}
+        {{#if @site.secondary_navigation}}
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{t "More"}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {{#if @labs.members}}
+              {{#if @member}}
+              <a class="nav-link dropdown-item" href="javascript:" data-members-signout>{{t "Sign-out"}}</a>
+              {{else}}
+              <a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/signin">{{t "Sign-in"}}</a>
+              {{/if}}
+            {{/if}}
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{{url}}">{{label}}</a>
+          </div>
         </li>
         {{/if}}
+
         
         <!-- End the loop -->
     </ul>
