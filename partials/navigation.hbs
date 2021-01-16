@@ -34,7 +34,9 @@
               {{/if}}
             {{/if}}
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{url}}">{{label}}</a>
+            {{#foreach navigation}}
+              <a class="dropdown-item" href="{{url}}">{{label}}</a>
+            {{/foreach}}
           </div>
         </li>
         {{/if}}
