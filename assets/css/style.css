@@ -576,13 +576,14 @@
   }
   
   .source-item .button-url {
-	color: var(--font-color-primary-dark) !important;
-	font-size: 1.1rem;
-	background: var(--accentcolor);
-	border-radius: 5px;
-	padding: 5px;
-	margin-right: 10px;
-	text-decoration: none;
+    color: var(--accentcolor) !important;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
   }
   
   .source-item a:hover {
@@ -1105,11 +1106,13 @@ p > img,
   ############################################*/
   
   .premium {
-	background: var(--accentsubtext);
-	padding: 5px;
-	border-radius: 5px;
-	font-size: 15px;
-	color: white;
+    background: var(--accentsubtext);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    bottom: 5px;
   }
   
   /* ###############################################
