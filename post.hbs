@@ -24,11 +24,11 @@
             {{content}}
 
             {{#if @member.paid}}
-              <p>{{t "Awesome to see you are a paying member 🎉"}}</p>
+              <p class="subscription-text">{{t "Awesome to see you are a paying member 🎉"}}</p>
             {{else if @member}}
-              <p>{{t "Thank you for being a member 🙌"}}</p>
+              <p class="subscription-text">{{t "Thank you for being a member 🙌"}}</p>
             {{else}}
-              <p>{{t "Sign-up to view Premium content."}}</p>
+              <p class="subscription-text">{{t "Sign-up to view Premium content."}}</p>
             {{/if}}
             <div class="cat-links">
                 {{#if tags}}
