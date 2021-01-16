@@ -6,14 +6,14 @@
               <div class="col-12 col-lg-7">
                <h1 class="top-title">{{title}}</h1>
                 <p class="subtext">
-                  <span class="premium">Premium</span> {{excerpt}}
+                  {{#has visibility="paid"}}<span class="premium">Premium</span>{{/has}}{{#has visibility="members"}}<span class="premium">Members-Only</span>{{/has}} {{excerpt}}
                 </p>
                 <div class="source-item">
                   <a
                     href="{{url}}"
                     title="{{title}}"
                     class="button-url hvr-grow"
-                    ><i class="fas fa-info-circle"></i>{{t "Read More"}}</a
+                    ><i class="fas fa-play"></i>{{t "Read More"}}</a
                   >
                 </div>
               </div>
