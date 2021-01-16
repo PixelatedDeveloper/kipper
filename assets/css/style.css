@@ -1045,15 +1045,7 @@ p > img,
   .top-content {
 	padding: 10px;
   }
-  
-  .row {
-	--bs-gutter-x: 0 !important;
-  }
-  
-  hr {
-	padding-top: 15px !important;
-	padding-bottom: 15px !important;
-  }
+
   
   .source-item a {
 	margin-top: 10px;
