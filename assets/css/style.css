@@ -124,10 +124,10 @@
   }
   
   .top-title {
-	font-size: 6rem;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: var(--font-color-banner) !important;
+    font-size: 6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--font-color-banner) !important;
   }
 
   .top-section-title {
@@ -1055,6 +1055,10 @@ p > img,
   .source-item a {
 	margin-top: 10px;
   }
+
+  .top-title {
+    font-size: 3.5rem;
+  }
   
   }
   
@@ -1079,7 +1083,12 @@ p > img,
   
 	.source-item a {
 	  margin-top: 10px;
-	}
+  }
+
+  .top-title {
+    font-size: 4rem;
+  }
+
   }
   
   @media (max-width: 991px) and (min-width: 768px) {
@@ -1099,7 +1108,11 @@ p > img,
   
 	.top-content {
 	  padding: 10px;
-	}
+  }
+  
+  .top-title {
+    font-size: 4.5rem;
+  }
   
   }
   
