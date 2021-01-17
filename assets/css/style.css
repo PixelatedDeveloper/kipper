@@ -135,7 +135,9 @@
 	font-size: 1.2rem;
 	font-family: "Quicksand", sans-serif !important;
 	color: var(--font-color-primary-light);
-	text-decoration: none;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
   }
   
   .header-url:hover {
