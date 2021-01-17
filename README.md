@@ -20,7 +20,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 
 ![Kipper](https://github.com/pixelateddeveloper/kipper/raw/master/assets/screenshot-desktop.png)
 
-# Larua's base
+# Base
 Larua uses the following libraries;
 - Bootstrap 4
 - JQuery (3.1.x)
