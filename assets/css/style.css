@@ -208,14 +208,14 @@
   .top-section-title {
 	  margin-top: 20px;
 	  font-weight: 600;
-  } 
+  }
 
   .avatar-page.avatar-page-author.center-align {
     width: 75px;
     border-radius: 50px;
     height: 75px;
     object-fit: cover;
-    }
+  }
   
   .top_section_wrap {
     padding: 20px;
