@@ -714,7 +714,6 @@ p > img,
 	padding: 10px;
   }
 
-  
   .source-item a {
 	margin-top: 10px;
   }
@@ -730,6 +729,7 @@ p > img,
   .homepage-post-item {
     padding-left: 32px;
   }
+  
 
   }
   
@@ -758,6 +758,10 @@ p > img,
 
   .highlight, .post-content h2, .related h2 {
     font-size: 2rem;
+  }
+
+  .homepage-post-item {
+    padding-left: 32px;
   }
 
   }
