@@ -1132,6 +1132,14 @@ p > img,
     bottom: 3px;
     margin-right: 5px;
   }
+
+  .subscription-text {
+    padding: 20px;
+    background: var(--accentcolor-old);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+  }
   
   /* ###############################################
   
