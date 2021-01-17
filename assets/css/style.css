@@ -126,7 +126,7 @@
   *****************************************/
  
   .head-logo {
-	height: 24px;
+	height: 32px;
 	margin-left: 0px;
 	margin-right: 10px;
   }
@@ -727,7 +727,7 @@ p > img,
   }
 
   .homepage-post-item {
-    padding-left: 32px;
+    padding-left: 32px !important;
   }
   
 
@@ -761,7 +761,7 @@ p > img,
   }
 
   .homepage-post-item {
-    padding-left: 32px;
+    padding-left: 32px !important;
   }
 
   }
@@ -783,6 +783,10 @@ p > img,
   
   .top-title {
     font-size: 4.5rem;
+  }
+
+  .homepage-post-item {
+    padding-left: 32px !important;
   }
   
   }
