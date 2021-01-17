@@ -551,28 +551,6 @@ p > img,
     max-width: 100%;
 }
 
-
-  /* #####################
-	   
-  ABOUT ME
-  
-  ######################*/
-  
-  .about-me-name {
-	font-size: 45px;
-	font-weight: bold;
-  }
-  
-  .avatar-me {
-	border-radius: 15px;
-	max-width: 150px;
-	max-height: 150px;
-  }
-  
-  .why-items {
-	padding: 25px;
-  }
-
 /* **************************************
 
 
@@ -715,7 +693,7 @@ p > img,
   
   /* #####################
 		
-  Responsive
+  MEDIA QUERIES
   
   ######################*/
   
@@ -805,7 +783,7 @@ p > img,
   
   /* ###############################################
   
-  PREMIUM CSS
+  PREMIUM / MEMBER CSS
   
   ############################################*/
   
@@ -843,8 +821,7 @@ p > img,
   
   .fa-download,
   .fa-file-text-o,
-  .fa-external-link,
-  .theme-options > .col-sm-4 > .fa-plus {
+  .fa-external-link {
 	font-size: 1.5em !important;
   }
   
@@ -854,44 +831,6 @@ p > img,
   
   .fa-chevron-right {
 	margin-right: 10px;
-  }
-  
-  .top-row-icons,
-  .card .fa-github,
-  .card .fa-bug,
-  .card .fa-firefox {
-	margin-left: auto;
-	margin-right: auto;
-  }
-  
-  .fa-plus {
-	text-align: center !important;
-	font-size: 1.5em !important;
-  }
-  
-  .fa-check {
-	color: #31b745 !important;
-  }
-  
-  .fa-times {
-	color: #c13307 !important;
-  }
-  
-  .fa-arrow-circle-down,
-  .fa-info-circle {
-	margin-right: 5px !important;
-  }
-  
-  .fa-people-carry {
-	color: var(--font-color-banner);
-  }
-  
-  .fa-flask {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	width: 100% !important;
-	color: white;
   }
 
   /* ######################
