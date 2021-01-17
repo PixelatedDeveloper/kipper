@@ -745,10 +745,6 @@ p > img,
     font-size: 2rem;
   }
 
-  .homepage-post-details {
-    margin-right: 0;
-  }
-  
   }
   
   @media (max-width: 767px) and (min-width: 576px) {
@@ -790,10 +786,6 @@ p > img,
 
   .highlight, .post-content h2, .related h2 {
     font-size: 2rem;
-  }
-
-  .homepage-post-details {
-    margin-right: 0;
   }
 
   }
