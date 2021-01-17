@@ -24,7 +24,7 @@
 {{navigation}}
 
 {{#is "index, home"}}
-    {{^is "paged"}}
+    {{^is "paged"}} <!-- if not paged (page2+) show featured -->
         {{> 'post/featured'}}
     <hr class="fancy-hr" />
     {{/is}}

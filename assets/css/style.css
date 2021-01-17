@@ -914,3 +914,14 @@ p > img,
   .content-spacing {
     margin-bottom: 50px;
   }
+
+  .full-width-item {
+    left: 50%;
+    margin-left: -51vw;
+    margin-right: -51vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+    padding: 30px;
+  }
