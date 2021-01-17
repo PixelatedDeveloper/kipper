@@ -1,5 +1,4 @@
 <div class="container-fluid container-wrap row">
-{{#get "posts" filter="tags:-[featured-top]"}}
 {{#foreach posts visibility="all"}}
     <div class="row post-wrap {{#has index="nth:2"}}reverse-post{{/has}} post-access-{{visibility}}">
             <div
@@ -52,5 +51,4 @@
             </div> 
     </div>
 {{/foreach}}
-{{/get}}
 </div>
