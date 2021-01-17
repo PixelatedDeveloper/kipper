@@ -6,7 +6,7 @@
 :root {
 	/* general accent colors */
 	--accentcolor: #1d1188;
-	--accentcolor-old: #581188;
+	--accentcolor2: #581188;
 	--accentsubtext: #b51dc2;
 	--content-bg: #f8f9fa;
   
@@ -18,14 +18,7 @@
   
 	--font-color-banner: #232323;
 	--font-color-primary: #000;
-  
-	/* dark mode specific */
-	--bg-container-dark: #000000;
-	--bg-color-dark: #232323;
-	--font-color-primary-dark: #ffffff;
-	--font-color-alt-dark: #000000;
-  
-	/* light mode specific */
+
 	--bg-color-light: #ffffff;
 	--font-color-primary-light: #000000;
 	--font-color-alt-light: #232323;
@@ -40,29 +33,12 @@
 	font-family: "Imprima", sans-serif !important;
   }
 
-
-  .vertical-align-item {
-	  display: flex;
-	  align-items: center;
-  }
-
   .container-wrap {
-	max-width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .container-fluid {
-	min-width: 300px;
-	padding: 0;
-  }
-  
-  .flex-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
-  
+
   a {
 	  color: black !important;
   }
@@ -1139,7 +1115,7 @@ p > img,
 
   .subscription-text {
     padding: 20px;
-    background: var(--accentcolor-old);
+    background: var(--accentcolor2);
     color: white;
     font-weight: 600;
     text-align: center;
@@ -1257,3 +1233,20 @@ p > img,
 	-webkit-transform: rotate(3deg);
 	transform: rotate(3deg);
   }
+
+/* **************************************
+  
+	HANDY CLASSES
+  
+  *****************************************/
+
+  .vertical-align-item {
+	  display: flex;
+	  align-items: center;
+  }
+
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
