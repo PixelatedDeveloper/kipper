@@ -24,8 +24,10 @@
 {{navigation}}
 
 {{#is "index, home"}}
-    {{> 'post/featured'}}
+    {{^is "paged"}}
+        {{> 'post/featured'}}
     <hr class="fancy-hr" />
+    {{/is}}
 {{/is}}
 
 {{#is "tag"}}
