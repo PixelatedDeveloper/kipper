@@ -153,6 +153,10 @@
   .navbar {
     border-bottom: 0 !important;
   }
+
+  .navbar .container-fluid {
+    padding: 0 !important;
+  }
    
   .nav {
     padding-left: 10px;
