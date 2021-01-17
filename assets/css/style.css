@@ -802,6 +802,7 @@ p > img,
     position: relative;
     bottom: 3px;
     margin-right: 5px;
+    white-space: nowrap;
   }
 
   .subscription-text {
