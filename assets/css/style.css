@@ -126,8 +126,8 @@
   *****************************************/
  
   .head-logo {
-	height: 40px;
-	margin-left: 10px;
+	height: 24px;
+	margin-left: 0px;
 	margin-right: 10px;
   }
   
@@ -701,10 +701,6 @@ p > img,
   
   @media (max-width: 575px) {
   
-  .head-logo {
-	margin-left: 0;
-  }
-  
   .nav-item.active > .nav-link,
   .nav-link {
 	margin-left: 10px;
@@ -745,10 +741,6 @@ p > img,
   
   @media (max-width: 767px) and (min-width: 576px) {
 	
-	.head-logo {
-	  margin-left: 0;
-	}
-	
 	.nav-item.active > .nav-link,
 	.nav-link {
 	  margin-left: 10px;
@@ -787,10 +779,6 @@ p > img,
   }
   
   @media (max-width: 991px) and (min-width: 768px) {
-	
-	.head-logo {
-	  margin-left: 0;
-	}
 	
 	.nav-item.active > .nav-link,
 	.nav-link {
