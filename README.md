@@ -18,7 +18,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Translation support!
 - Custom tag, author and error page designs.
 
-![Larua](https://github.com/pixelateddeveloper/larua/raw/master/assets/screenshot-desktop.png)
+![Kipper](https://github.com/pixelateddeveloper/kipper/raw/master/assets/screenshot-desktop.png)
 
 # Larua's base
 Larua uses the following libraries;
