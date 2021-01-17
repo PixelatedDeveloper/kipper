@@ -292,11 +292,10 @@
   }
 
   .subtext {
-    color: var(--font-color-banner) !important;
+    color: var(--font-color-alt-light) !important;
     font-family: "Quicksand", sans-serif !important;
     font-size: 1.2rem !important;
     max-width: 700px;
-    color: var(--font-color-alt-light);
     margin-bottom: 0;
   }
     
