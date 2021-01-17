@@ -30,15 +30,15 @@
               {{else}}
                 <p class="subscription-text">{{t "Sign-up to view Premium content."}}</p>
               {{/if}}
-              <div class="cat-links">
-                  {{#if tags}}
-                    <div class="tagslist">
-                      {{#foreach tags}}
-                        <a href="{{@site.url}}/tag/{{name}}" class="hvr-grow">#{{name}}</a>
-                      {{/foreach}}
-                    </div>
-                  {{/if}}<!-- end tags if -->
-              </div><!-- end cat links -->
+              
+              {{#if tags}}
+                <div class="tagslist">
+                  {{#foreach tags}}
+                    <a href="{{@site.url}}/tag/{{name}}" class="hvr-grow">#{{name}}</a>
+                  {{/foreach}}
+                </div>
+              {{/if}}<!-- end tags if -->
+
 
                 {{> 'post/author-section'}}
           {{/if}}
