@@ -253,10 +253,6 @@
     height: 24px;
     border-radius: 50px;
   }
-
-  .homepage-post-item {
-	padding: 10px;
-  }
   
   .main-top-content {
 	width: 100%;
@@ -734,6 +730,20 @@ p > img,
   .top-title {
     font-size: 3.5rem;
   }
+
+  .regular-post .homepage-post-item {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+
+  .reverse-post .homepage-post-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .highlight, .post-content h2, .related h2 {
+    font-size: 2rem;
+  }
   
   }
   
@@ -762,6 +772,20 @@ p > img,
 
   .top-title {
     font-size: 4rem;
+  }
+
+  .regular-post .homepage-post-item {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+
+  .reverse-post .homepage-post-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .highlight, .post-content h2, .related h2 {
+    font-size: 2rem;
   }
 
   }
