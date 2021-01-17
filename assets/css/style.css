@@ -813,10 +813,11 @@ p > img,
     border-radius: 5px;
     font-size: 14px;
     color: white;
-    position: relative;
-    bottom: 3px;
     margin-right: 5px;
     white-space: nowrap;
+    position: absolute;
+    top: 40px;
+    right: 25px;
   }
 
   .subscription-text {
