@@ -136,8 +136,6 @@
 	font-family: "Quicksand", sans-serif !important;
 	color: var(--font-color-primary-light);
   text-decoration: none;
-  align-items: center;
-  display: flex;
   }
   
   .header-url:hover {
@@ -725,18 +723,12 @@ p > img,
     font-size: 3.5rem;
   }
 
-  .regular-post .homepage-post-item {
-    padding-left: 32px !important;
-    padding-right: 32px !important;
-  }
-
-  .reverse-post .homepage-post-item {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
   .highlight, .post-content h2, .related h2 {
     font-size: 2rem;
+  }
+
+  .homepage-post-item {
+    padding-left: 32px;
   }
 
   }
@@ -762,16 +754,6 @@ p > img,
 
   .top-title {
     font-size: 4rem;
-  }
-
-  .regular-post .homepage-post-item {
-    padding-left: 32px !important;
-    padding-right: 32px !important;
-  }
-
-  .reverse-post .homepage-post-item {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
   }
 
   .highlight, .post-content h2, .related h2 {
