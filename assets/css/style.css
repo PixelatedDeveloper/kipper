@@ -744,6 +744,10 @@ p > img,
   .highlight, .post-content h2, .related h2 {
     font-size: 2rem;
   }
+
+  .homepage-post-details {
+    margin-right: 0;
+  }
   
   }
   
@@ -786,6 +790,10 @@ p > img,
 
   .highlight, .post-content h2, .related h2 {
     font-size: 2rem;
+  }
+
+  .homepage-post-details {
+    margin-right: 0;
   }
 
   }
