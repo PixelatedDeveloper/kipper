@@ -20,15 +20,15 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 
 ![Kipper](https://github.com/pixelateddeveloper/kipper/raw/master/assets/screenshot-desktop.png)
 
-# Larua's base
-Larua uses the following libraries;
+# Base
+Kipper uses the following libraries;
 - Bootstrap 4
 - JQuery (3.1.x)
 - Font Awesome 5
 - Webfontloader 1.6.28
 
 # Theme requirements
-- Larua **requires** Ghost version **3.0** or higher to install and work as intended. 
+- Kipper **requires** Ghost version **3.0** or higher to install and work as intended. 
 - For the full featureset (although it's likely on by default if you run the latest version) enable Ghost API in the Ghost settings panel -> Labs -> Ghost API.
 - Enable members support (**beta**).
 
