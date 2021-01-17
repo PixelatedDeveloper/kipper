@@ -20,7 +20,6 @@
         </div>
       <div class="post-content">
           {{#if access}}
-              <hr class="fancy-hr" />
               {{content}}
 
               {{#if @member.paid}}
@@ -30,7 +29,7 @@
               {{else}}
                 <p class="subscription-text">{{t "Sign-up to view Premium content."}}</p>
               {{/if}}
-              
+
               {{#if tags}}
                 <div class="tagslist">
                   {{#foreach tags}}
@@ -41,7 +40,7 @@
 
 
                 {{> 'post/author-section'}}
-          {{/if}}
+          {{/i  f}}
       </div>
       </article>
     </div>

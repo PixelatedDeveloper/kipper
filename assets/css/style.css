@@ -630,6 +630,10 @@
 	padding: 25px;
 	color: white;
   }
+
+  .post-content {
+    margin-top: 30px;
+  }
   
   .tab-image {
 	padding: 25px;
