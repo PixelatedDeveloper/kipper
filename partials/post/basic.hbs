@@ -38,7 +38,7 @@
                     class="hvr-grow button-url"
                     ><i class="fas fa-play"></i>{{t "Subscribe"}}</a
                   >
-                  <div>
+                  <div class="homepage-post-details">
                 {{/if}}
                     {{#foreach authors}}
                         <a href="{{url}}" title="{{name}}"><img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="homepage-avatar" alt="{{t "Written by"}} {{name}}" title="{{t "Written by"}} {{name}}"></a> 
