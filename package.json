@@ -1,7 +1,7 @@
 {
   "name": "kipper",
   "description": "PixelatedDeveloper's website.",
-  "version": "0.1",
+  "version": "0.2",
   "engines": {
       "ghost": ">=3.0",
       "ghost-api": "v3"
