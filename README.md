@@ -1,7 +1,4 @@
 # Kipper
-
-![Master version](https://img.shields.io/github/package-json/v/pixelateddeveloper/kipper/master?style=flat-square)
-![Development version](https://img.shields.io/github/package-json/v/pixelateddeveloper/kipper/dev?style=flat-square)
 ![License](https://img.shields.io/github/license/pixelateddeveloper/kipper?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/kipper/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/kipper)
 
