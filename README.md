@@ -4,10 +4,10 @@
 
 A [Ghost](http://github.com/tryghost/ghost/) theme. 
 
-# 📸 Screenshot
+## 📸 Screenshot
 ![Kipper](https://github.com/pixelateddeveloper/kipper/raw/master/assets/screenshot-desktop.png)
 
-# 📃Main Features
+## 📃Main Features
 - Responsive layout.
 - Ability to set your own publication icon and publication logo.
 - Set cover- and featured-post images for tags, author and single post pages.
@@ -18,12 +18,12 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Translation support (see localisation).
 - Custom tag, author and error page designs.
 
-# Use
+## Use
 - Download the package from the releases page.
 - Go to your Ghost-panel and to the Design-tab.
 - Upload the theme .zip.
 - Activate the theme.
 
-# 🌍 Localisation 
+## 🌍 Localisation 
 - English
 - Dutch
