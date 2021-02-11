@@ -2,9 +2,10 @@
 ![License](https://img.shields.io/github/license/pixelateddeveloper/kipper?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/kipper/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/kipper)
 
+A [Ghost](http://github.com/tryghost/ghost/) theme. 
 
 # 📸 Screenshot
-A [Ghost](http://github.com/tryghost/ghost/) theme. 
+![Kipper](https://github.com/pixelateddeveloper/kipper/raw/master/assets/screenshot-desktop.png)
 
 # 📃Main Features
 - Responsive layout.
@@ -16,8 +17,6 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Set social media links through Ghost settings panel (they will show in the footer).
 - Translation support (see localisation).
 - Custom tag, author and error page designs.
-
-![Kipper](https://github.com/pixelateddeveloper/kipper/raw/master/assets/screenshot-desktop.png)
 
 # Use
 - Download the package from the releases page.
