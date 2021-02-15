@@ -198,6 +198,12 @@
 	border-bottom: 0 !important;
   }
 
+  .dropdown-item:active,
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    background-color: #f8f9fa !important;
+  }
+
 
   /* **************************************
   
