@@ -6,7 +6,9 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-      <a href="{{@site.url}}" class="header-url">{{#if @site.logo}}<img src="{{@site.logo}}" alt="blog logo" class="head-logo hvr-rotate" />{{/if}}
+      {{#if @site.logo}}<img src="{{@site.logo}}" alt="blog logo" class="head-logo hvr-rotate" />{{/if}}
+      <a href="{{@site.url}}" class="header-url d-none d-sm-none d-md-block">
+      {{@site.title}}
       </a>
   </div>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
