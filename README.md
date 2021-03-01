@@ -6,7 +6,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 ## 📸 Screenshot
 ![Kipper](https://github.com/pixelateddeveloper/kipper-ghost-theme/raw/master/assets/screenshot-desktop.png)
 
-## 📃Main Features
+## 📃 Main Features
 - Responsive layout.
 - Members support.
 - Translation support (see localisation).
