@@ -1,7 +1,7 @@
 {
   "name": "kipper",
   "description": "A Ghost theme that's minimalist, yet feature-rich.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
       "ghost": ">=3.40.0",
       "ghost-api": "v3"
