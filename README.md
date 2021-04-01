@@ -1,10 +1,8 @@
 # Kipper
-![License](https://img.shields.io/github/license/pixelateddeveloper/kipper-ghost-theme?style=flat-square)
-
 A [Ghost](http://github.com/tryghost/ghost/) theme. 
 
 ## 📸 Screenshot
-![Kipper](https://github.com/pixelateddeveloper/kipper-ghost-theme/raw/master/assets/screenshot-desktop.png)
+![Kipper](https://github.com/spookthemes/kipper-ghost-theme/raw/master/assets/screenshot-desktop.png)
 
 ## 📃 Main Features
 - Responsive layout.

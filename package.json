@@ -1,7 +1,7 @@
 {
   "name": "kipper",
   "description": "A Ghost theme that's minimalist, yet feature-rich.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
       "ghost": ">=3.40.0",
       "ghost-api": "v3"
@@ -12,15 +12,15 @@
     "mobile": "assets/screenshot-mobile.png"
   },
   "author": {
-    "name": "Michael Boumann",  
-    "email": "support@michaelboumann.com",
-    "url": "https://michaelboumann.com"
+    "name": "SpookThemes",  
+    "email": "support@spookthemes.com",
+    "url": "https://spookthemes.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PixelatedDeveloper/kipper-ghost-theme.git"
+    "url": "https://github.com/spookthemes/kipper-ghost-theme.git"
   },
-  "bugs": "https://github.com/PixelatedDeveloper/kipper-ghost-theme/issues",
+  "bugs": "https://github.com/spookthemes/kipper-ghost-theme/issues",
  
   "config": {
       "posts_per_page": 5
