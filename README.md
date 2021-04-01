@@ -1,6 +1,4 @@
 # Kipper
-![License](https://img.shields.io/github/license/pixelateddeveloper/kipper-ghost-theme?style=flat-square)
-
 A [Ghost](http://github.com/tryghost/ghost/) theme. 
 
 ## 📸 Screenshot
