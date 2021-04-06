@@ -5,8 +5,6 @@
 *****************************************/
 :root {
 	/* general accent colors */
-	--accentcolor: #1d1188;
-	--accentcolor2: #581188;
 	--accentsubtext: #b51dc2;
 	--content-bg: #f8f9fa;
   
@@ -44,7 +42,7 @@
   }
 
   a:hover {
-	  color: var(--accentcolor) !important;
+	  color: var(--ghost-accent-color) !important;
   }
 
   p,
@@ -83,7 +81,7 @@
   .fancy-hr {
 	width: 85px;
 	border: none;
-	background: var(--accentcolor) !important;
+	background: var(--ghost-accent-color) !important;
 	height: 4px !important;
 	text-align: center;
 	opacity: 1;
@@ -106,7 +104,7 @@
   }
   
   div > p > a:hover {
-	color: var(--accentcolor) !important;
+	color: var(--ghost-accent-color) !important;
   }
 
   .highlight,
@@ -182,11 +180,11 @@
   }
   
   .nav-item.active > .nav-link {
-	color: var(--accentcolor) !important;
+	color: var(--ghost-accent-color) !important;
   }
   
   .nav-link:hover {
-	color: var(--accentcolor);
+	color: var(--ghost-accent-color);
   }
   
   .nav-tabs .nav-item.show .nav-link,
@@ -198,11 +196,16 @@
 	border-bottom: 0 !important;
   }
 
-  .dropdown-item:active,
-  .dropdown-item:focus,
-  .dropdown-item:hover {
-    background-color: #f8f9fa !important;
+  .dropdown-menu {
+    background: white !important;
+    color: var(--font-color-primary) !important;
   }
+  
+  .dropdown-item:hover {
+    color: var(--ghost-accent-color) !important;
+    background: none !important;
+  }
+  
 
 
   /* **************************************
@@ -321,7 +324,7 @@
   }
   
   .source-item .button-url {
-    color: var(--accentcolor) !important;
+    color: var(--ghost-accent-color) !important;
     font-size: 0.8rem;
     border-radius: 5px;
     padding: 5px;
@@ -377,7 +380,7 @@
   .tagslist a {
 	color: white !important;
 	text-transform: uppercase;
-	background: var(--accentcolor);
+	background: var(--ghost-accent-color);
 	padding: 10px;
 	border-radius: 5px;
   }
@@ -609,7 +612,7 @@ p > img,
 
 .pagination a li:hover,
 .pagination li:hover  {
-    background: var(--accentcolor);
+    background: var(--ghost-accent-color);
     color: white !important;
 }
 
@@ -817,17 +820,16 @@ p > img,
 
   .subscription-text {
     padding: 20px;
-    background: var(--accentcolor2);
+    background: var(--ghost-accent-color);
     color: white;
     font-weight: 600;
     text-align: center;
   }
 
-
   .post-access-members,
   .post-access-paid {
     background: #e8e7f3;
-    border: 2px solid var(--accentcolor);
+    border: 2px solid var(--ghost-accent-color);
     border-radius: 10px;
   }
   
