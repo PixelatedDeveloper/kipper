@@ -828,7 +828,7 @@ p > img,
   .post-access-members,
   .post-access-paid {
     background: #e8e7f3;
-    border: 2px solid var(--ghost-accent-color);
+    border: 2px solid #581188;
     border-radius: 10px;
   }
   
