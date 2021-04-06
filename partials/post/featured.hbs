@@ -6,7 +6,7 @@
               <div class="col-12 col-lg-7">
                <h1 class="top-title">{{title}}</h1>
                 <p class="subtext">
-                  {{#has visibility="paid"}}<span class="premium">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="premium">{{t "Members-Only"}}</span>{{/has}} {{excerpt}}
+                  {{excerpt}}
                 </p>
                 <div class="source-item">
                   <a
@@ -15,6 +15,7 @@
                     class="button-url hvr-grow"
                     ><i class="fas fa-play"></i>{{t "Read More"}}</a
                   >
+                  {{#has visibility="paid"}}<span class="premium">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="premium">{{t "Members-Only"}}</span>{{/has}} 
                 </div>
               </div>
 
