@@ -5,7 +5,6 @@
 *****************************************/
 :root {
 	/* general accent colors */
-	--accentsubtext: #b51dc2;
 	--content-bg: #f8f9fa;
   
 	/* for things that shouldn't be pure white or black */
@@ -806,7 +805,7 @@ p > img,
   ############################################*/
   
   .premium {
-    background: var(--accentsubtext);
+    background: var(--ghost-accent-color);
     padding: 5px;
     border-radius: 5px;
     font-size: 14px;
