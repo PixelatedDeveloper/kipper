@@ -812,9 +812,6 @@ p > img,
     color: white;
     margin-right: 5px;
     white-space: nowrap;
-    position: absolute;
-    top: 40px;
-    right: 25px;
   }
 
   .subscription-text {
