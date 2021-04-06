@@ -1,5 +1,5 @@
 # Kipper
-A [Ghost](http://github.com/tryghost/ghost/) theme. 
+A [Ghost](http://github.com/tryghost/ghost/) theme. Kipper supports Ghost 4.0 and up.
 
 ## 📸 Screenshot
 ![Kipper](https://github.com/spookthemes/kipper-ghost-theme/raw/master/assets/screenshot-desktop.png)
@@ -8,13 +8,14 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Responsive layout.
 - Members support.
 - Translation support (see localisation).
+- Author section at the bottom of each post includes avatar, user bio and socials.
 - Shows related posts (by a posts primary tag) below a post.
 
 ### Other features
 - Ability to set your own publication icon and publication logo.
 - Set cover- and featured-post images for tags, author and single post pages.
 - Navigation configurable via navigation-section in Ghost panel.
-- Author section at the bottom of each post includes avatar, user bio and socials.
+- Accent color configurable via the Ghost panel
 - Custom tag, author and error page designs.
 - Set social media links through Ghost settings panel (they will show in the footer).
 
