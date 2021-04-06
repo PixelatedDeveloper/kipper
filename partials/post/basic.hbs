@@ -11,14 +11,14 @@
                 title="{{title}}"
                 loading="lazy"
               />
-              {{#has visibility="paid"}}<span class="premium">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="premium">{{t "Members-Only"}}</span>{{/has}}
             </div>
 
 
             <div
               class="row col-12 col-md-8 col-lg-8 vertical-align-item homepage-post-item"
             >
-            <h2 class="highlight">{{title}}</h2> 
+            <h2 class="highlight">{{title}}</h2>
+            {{#has visibility="paid"}}<span class="premium">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="premium">{{t "Members-Only"}}</span>{{/has}}
               <p class="subtext-content">
                 {{excerpt}}
               </p>
