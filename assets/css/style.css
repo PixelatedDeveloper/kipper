@@ -806,10 +806,11 @@ p > img,
   
   .premium {
     background: var(--ghost-accent-color);
-    padding: 5px;
+    padding: 6px;
     border-radius: 5px;
     font-size: 14px;
     color: white;
+    margin-left: 10px;
     margin-right: 5px;
     white-space: nowrap;
   }
