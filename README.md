@@ -24,6 +24,9 @@ A [Ghost](http://github.com/tryghost/ghost/) theme.
 - Upload the theme .zip.
 - Activate the theme.
 
+## Enable featured posts
+Add a tag called 'featured-top' to any post. The theme will grab the latest post that has the tag.
+
 ## 🌍 Localisation 
 - English
 - Dutch
