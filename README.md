@@ -26,7 +26,7 @@ A [Ghost](http://github.com/tryghost/ghost/) theme. Kipper supports Ghost 4.0 an
 - Activate the theme.
 
 ## Enable featured posts
-Add a tag called 'featured-top' to any post. The theme will grab the latest post that has the tag.
+Add a tag called 'featured-top' to any post. The theme will grab the newest post that has the tag.
 
 ## 🌍 Localisation 
 - English
